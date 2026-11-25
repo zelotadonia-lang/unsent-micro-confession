@@ -4,20 +4,23 @@
 // The entry is one two-part micro-confession: a "To:" line naming who the
 // unsent message was meant for, and the unsent line itself, written exactly
 // as it was typed. The confession works because the two parts need each
-// other: the message only makes sense addressed to Mum, and the reason it
-// stayed unsent is felt in the words rather than stated — learning the soup
-// would end the reason to come home, so the not-knowing is kept on purpose.
-// It reads as typed and never sent, not as written to be sent: a small,
-// specific admission about a mother's soup, where pretending not to know is
-// the way the writer keeps a reason to return. This program writes that
-// text, byte for byte, to entry.txt.
+// other: the message only makes sense addressed to Dad, and the reason it
+// stayed unsent is felt in the words rather than stated — the writer buried
+// the dog on the morning Dad went into hospital and still tells him the dog
+// ran away, so the lie is still being told now. One specific morning, one
+// concrete animal, and the last words are the lie itself, still repeated.
+// It reads as typed and never sent, not as written to be sent: a plain,
+// specific admission about a dog, a hospital morning, and a story the
+// writer keeps telling. This program writes that text, byte for byte, to
+// entry.txt. (rev2: new concept after v1 scored 0.495 in round 2; the v1
+// soup text explained its own reason, this one lets the lie carry it.)
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-  "To: Mum\n" +
-  "I still pretend I don't know how to cook your soup. If I learn it, there's nothing left to come home for.";
+  "To: Dad\n" +
+  "I buried your dog the morning you went into hospital. I still tell you he ran away.";
 
 const MAX_TOTAL = 260;
 const MAX_MESSAGE = 200;

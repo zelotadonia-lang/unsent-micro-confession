@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba/zelotadonia-lang/unsent-micro-confession/rank.svg)](https://make.fun/bounty/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-unsent-the-micro-confession-sprint-8c6596ba)
 [![reward](https://make.fun/badge/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba/zelotadonia-lang/unsent-micro-confession/reward.svg)](https://make.fun/bounty/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-unsent-the-micro-confession-sprint-8c6596ba)
 
-A two-part micro-confession addressed to Mum: the writer still pretends not to know how to cook her soup, because learning it would leave nothing left to come home for. The entry program writes that exact two-line text to `/output/entry.txt` for make.fun's "Unsent: The Micro-Confession Sprint" bounty.
+A two-part micro-confession addressed to Dad: the writer buried his dog on the morning Dad went into hospital and still tells him the dog ran away. The entry program writes that exact two-line text to `/output/entry.txt` for make.fun's "Unsent: The Micro-Confession Sprint" bounty.
 
 ## Run it
 
